@@ -1,6 +1,14 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { ClicksCounter } from '../components/ClicksCounter/ClicksCounter'
 import './App.css'
 
+export const App = () => {
+  return (
+    <>
+    <h1>React - Events</h1>
+    
+    <ClicksCounter />
+    </>
+  )
+}
 
+export default App

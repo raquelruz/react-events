@@ -1,6 +1,7 @@
 import { ClicksCounter } from '../components/ClicksCounter/ClicksCounter'
-import { MirrorInput } from '../components/ClicksCounter/MirrorInput/MirrorInput'
+import { MirrorInput } from '../components/MirrorInput/MirrorInput'
 import './App.css'
+import { LoginForm } from '../components/LoginForm/LoginForm'
 
 export const App = () => {
   return (
@@ -10,6 +11,8 @@ export const App = () => {
     <ClicksCounter />
 
     <MirrorInput />
+
+    <LoginForm />
     </>
   )
 }

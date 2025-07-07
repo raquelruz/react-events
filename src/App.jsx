@@ -3,6 +3,7 @@ import { MirrorInput } from '../components/MirrorInput/MirrorInput'
 import './App.css'
 import { LoginForm } from '../components/LoginForm/LoginForm'
 import { ToggleText } from '../components/ToggleText/ToggleText'
+import { DoubleClickCounter } from '../components/DoubleClickCounter/DoubleClickCounter'
 
 export const App = () => {
   return (
@@ -16,6 +17,9 @@ export const App = () => {
     <LoginForm />
 
     <ToggleText />
+
+    <DoubleClickCounter />
+
     </>
   )
 }

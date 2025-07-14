@@ -8,6 +8,7 @@ import { HoverBox } from '../components/HoverBox/HoverBox'
 import { KeyCounter } from '../components/KeyCounter/KeyCounter'
 import { FocusInput } from '../components/FocusInput/FocusInput'
 import { Form } from '../components/Form/Form'
+import { FallbackImg } from '../components/FallbackImg/Fallback'
 
 export const App = () => {
   return (
@@ -31,6 +32,8 @@ export const App = () => {
     <FocusInput />
 
     <Form />
+
+    <FallbackImg />
     </>
   )
 }

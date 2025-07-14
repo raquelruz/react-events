@@ -4,6 +4,7 @@ import './App.css'
 import { LoginForm } from '../components/LoginForm/LoginForm'
 import { ToggleText } from '../components/ToggleText/ToggleText'
 import { DoubleClickCounter } from '../components/DoubleClickCounter/DoubleClickCounter'
+import { HoverBox } from '../components/HoverBox/HoverBox'
 
 export const App = () => {
   return (
@@ -20,6 +21,7 @@ export const App = () => {
 
     <DoubleClickCounter />
 
+    <HoverBox />
     </>
   )
 }

@@ -1,0 +1,21 @@
+.focus-input-container {
+	max-width: 400px;
+	margin: 2rem auto;
+	font-family: Arial, sans-serif;
+}
+
+.focus-input {
+	width: 100%;
+	padding: 0.5rem;
+	font-size: 16px;
+	border: 2px solid #ccc;
+	border-radius: 8px;
+	transition: border-color 0.3s, box-shadow 0.3s;
+	outline: none;
+	box-sizing: border-box;
+}
+
+.focus-input:focus {
+	border-color: #007bff;
+	box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}

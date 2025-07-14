@@ -6,6 +6,7 @@ import { ToggleText } from '../components/ToggleText/ToggleText'
 import { DoubleClickCounter } from '../components/DoubleClickCounter/DoubleClickCounter'
 import { HoverBox } from '../components/HoverBox/HoverBox'
 import { KeyCounter } from '../components/KeyCounter/KeyCounter'
+import { FocusInput } from '../components/FocusInput/FocusInput'
 
 export const App = () => {
   return (
@@ -25,6 +26,8 @@ export const App = () => {
     <HoverBox />
 
     <KeyCounter />
+
+    <FocusInput />
     </>
   )
 }
